@@ -82,8 +82,8 @@ DATABASES = {
     #     'NAME': BASE_DIR / 'db.sqlite3',
     # }
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'database',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'verceldb',
         'USER': 'default',
         'PASSWORD': '0ri9oRDwCqGd',
         'HOST': 'ep-damp-forest-81450295-pooler.us-east-1.postgres.vercel-storage.com',
